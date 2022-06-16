@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./fonts/TrebuchetMS-Bold.eot');
+  src: local('Trebuchet MS Bold'), local('TrebuchetMS-Bold'),
+    url('./fonts/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/TrebuchetMS-Bold.woff') format('woff'),
+    url('./fonts/TrebuchetMS-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./fonts/TrebuchetMS.eot');
+  src: local('Trebuchet MS'), local('TrebuchetMS'),
+    url('./fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/TrebuchetMS.woff') format('woff'),
+    url('./fonts/TrebuchetMS.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo2.0';
+  font-weight: thin;
+  font-style: normal;
+  src: local('Exo2.0'), url('./fonts/Exo2.0-Thin.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #222;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  font-family: inherit;
+}
