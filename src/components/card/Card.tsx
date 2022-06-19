@@ -99,7 +99,7 @@ export const Card: React.FC<ICard> = props => {
         </div>
         <div className={modifier('weight')}>
           <div className={modifier('weight__value')}>{props.weight}</div>
-          <div className={modifier('styles.weight__measure')}>кг</div>
+          <div className={modifier('weight__measure')}>кг</div>
         </div>
       </div>
       <div className={modifier('slogan')}>{slogan}</div>
